@@ -8,7 +8,6 @@
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
-    margin-top: 94px;
 
     .section-choice__list-item-button {
         color: $mainTextColor;
@@ -38,12 +37,8 @@
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     padding: 0px;
-
-    .list-pictures-item {
-        margin-bottom: 30px;
-    }
+    gap: 30px;
 }
 
 .section-choice__list-pictures-element {
@@ -102,6 +97,7 @@
     line-height: 2;
     letter-spacing: 0.06em;
     color: $mainTextColor;
+    font-family: $mainFont;
 }
 
 .section-choice__second-caption-pictures {
